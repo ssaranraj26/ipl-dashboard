@@ -1,0 +1,43 @@
+.recent-match-list-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+.recent-match-team-logo {
+  height: 30px;
+  width: 30px;
+}
+.recent-list-title {
+  font-size: 18px;
+  text-align: center;
+}
+.match-status {
+  font-size: 15px;
+}
+.win {
+  color: green;
+}
+.loss {
+  color: red;
+}
+.result {
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-list-container {
+    width: 30%;
+  }
+  .recent-match-team-logo {
+    height: 100px;
+    width: 100px;
+  }
+}

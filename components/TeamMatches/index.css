@@ -1,0 +1,30 @@
+.team-matches-bg-container {
+  background-image: linear-gradient(to top, #1e293b, #a4261d, #d91c1f);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.team-matches-content-container {
+  width: 90%;
+  max-width: 900px;
+}
+.team-banner {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+.recent-match-all-list-container {
+  padding-inline-start: 0%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .team-banner {
+    height: 260px;
+  }
+}

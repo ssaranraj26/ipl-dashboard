@@ -1,0 +1,66 @@
+.latest-match-card-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.latest-match-title {
+  font-size: 22px;
+  color: white;
+}
+.competing-team-logo {
+  height: 60px;
+  width: 60px;
+}
+.competing-img-container {
+  display: flex;
+  align-items: center;
+}
+.first-container {
+  display: flex;
+}
+.line {
+  border: 2px solid #475569;
+}
+.team-title {
+  font-size: 25px;
+}
+.date {
+  font-size: 22px;
+}
+.details-topic {
+  font-size: 22px;
+}
+.details-value {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .line {
+    display: none;
+  }
+  .competing-team-logo {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+  }
+  .team-title {
+    font-size: 30px;
+  }
+  .date {
+    font-size: 25px;
+  }
+  .details-topic {
+    font-size: 25px;
+  }
+  .details-value {
+    font-size: 20px;
+  }
+}
